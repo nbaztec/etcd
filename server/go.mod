@@ -7,6 +7,7 @@ require (
 	github.com/coreos/go-systemd/v22 v22.3.2
 	github.com/dustin/go-humanize v1.0.0
 	github.com/form3tech-oss/jwt-go v3.2.3+incompatible
+	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da
 	github.com/golang/protobuf v1.5.2
@@ -31,17 +32,17 @@ require (
 	go.etcd.io/etcd/client/v3 v3.5.1
 	go.etcd.io/etcd/pkg/v3 v3.5.1
 	go.etcd.io/etcd/raft/v3 v3.5.1
-	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.20.0
-	go.opentelemetry.io/otel v0.20.0
-	go.opentelemetry.io/otel/exporters/otlp v0.20.0
-	go.opentelemetry.io/otel/sdk v0.20.0
+	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.28.0
+	go.opentelemetry.io/otel v1.3.0
+	go.opentelemetry.io/otel/sdk v1.3.0
 	go.uber.org/multierr v1.6.0
 	go.uber.org/zap v1.17.0
 	golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0
-	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4
+	golang.org/x/net v0.0.0-20220121210141-e204ce36a2ba
+	golang.org/x/sys v0.0.0-20220114195835-da31bd327af9 // indirect
 	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
-	google.golang.org/genproto v0.0.0-20210602131652-f16073e35f0c
-	google.golang.org/grpc v1.38.0
+	google.golang.org/genproto v0.0.0-20220118154757-00ab72f36ad5
+	google.golang.org/grpc v1.43.0
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	sigs.k8s.io/yaml v1.2.0
 )

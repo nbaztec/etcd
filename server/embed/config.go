@@ -351,6 +351,9 @@ type Config struct {
 	// that exist at the same time.
 	// Can only be used if ExperimentalEnableDistributedTracing is true.
 	ExperimentalDistributedTracingServiceInstanceID string `json:"experimental-distributed-tracing-instance-id"`
+	// ExperimentalDistributedTracingSamplingRatePerMillion is the number of samples to collect per million spans.
+	// Defaults to 0.
+	ExperimentalDistributedTracingSamplingRatePerMillion int `json:"experimental-distributed-tracing-sampling-rate"`
 
 	// Logger is logger options: currently only supports "zap".
 	// "capnslog" is removed in v3.5.
